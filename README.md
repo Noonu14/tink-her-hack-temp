@@ -1,28 +1,45 @@
 <p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
+  <img width="1920" height="1200" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/e7b414ea-9812-487e-87f1-e228433c4532" />
+
 </p>
 
-# [Project Name] 🎯
+# Skill Swap Name 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Neenu
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Neenu - LBS COLLEGE OF ENGINEERING, KASARGOD
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://skillswaps.page.gd/
 
 ### Project Description
-[2-3 lines about what your project does]
+A web platform where women can:
+✨Offer one skill
+✨Request one skill
+✨Get matched automatically
+
+Example:
+“I can teach Canva design”
+“I want to learn basic budgeting”
+→ Platform matches compatible users.
 
 ### The Problem statement
-[What problem are you solving?]
+Most platforms:
+ One-sided (mentor → learner)
+ Paid
+ Passive listings
+
+SkillSwap Circle:
+ Two-sided reciprocity
+ Instant logical matching
+ Community-driven micro-economy
 
 ### The Solution
-[How are you solving it?]
+Exchange Skills. Empower Each Other
+ I created a platform where people can connect with eachother and share there skills and teach eachother to upbring themselves.
 
 ---
 
@@ -30,26 +47,27 @@
 
 ### Technologies/Components Used
 
-**For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+**For Software**
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+Languages used: HTML, CSS, JavaScript, PHP, SQL
+Frameworks used: None (Pure Vanilla PHP)
+Libraries used: None
+Tools used: VS Code, XAMPP (Apache + MySQL), PHPMyAdmin
 
+**For Hardware**
+
+Main components: Standard PC/Laptop (Server Host)
+Specifications: 4GB+ RAM, 100MB+ Storage
+Tools required: Web Browser
 ---
 
-## Features
-
+##Features
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+
+-User Authentication: Secure Login/Registration with Unique ID and hashed passwords.
+-Smart Matching Engine: Automatically pairs users based on complementary skills (Offer vs Need).
+-Real-time Chat: Continuous messaging system with strict sender/receiver alignment.
+-Security Check: Password recovery flow using personal security questions.
 
 ---
 
@@ -59,21 +77,25 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+# 1. Install XAMPP
+# 2. Copy 'skillswap' folder to C:\xampp\htdocs\
+# 3. Start Apache and MySQL in XAMPP Control Panel
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+# Open in Browser:
+http://localhost/skillswap/setup_v3.php  # (First time only)
+http://localhost/skillswap/index.php     # (To use the app)
 ```
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+Not Applicable (Software-only project)
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+Not Applicable
 
 ---
 
@@ -83,45 +105,105 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1200" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/9a9a67ef-aa1b-46dc-ab52-c2d257f40187" />
+first time login
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1200" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/1e7925e2-c6a9-46f2-9863-a8962ff5c53e" />
+login page
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1200" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/a7dabecf-5dbb-4784-b7b2-19e7b6ed99b5" />
+home page
+
+<img width="1920" height="1200" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/31a17ae4-6f36-4a1f-9364-c74dba6f6eb2" />
+chat between mentor and learner
+
+
+
+
 
 #### Diagrams
 
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+**System Architecture**
+An explanation of the LAMP/WAMP stack component interaction and a Mermaid diagram visualizing the Client -> Server -> DB flow.
+**Application Workflow**
+A step-by-step user journey description and a Mermaid sequence diagram showing the Registration -> Matching -> Chat process.
 
 ---
 
 ### For Hardware:
 
 #### Schematic & Circuit
+*Not Applicable for this software-only project.*
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![Circuit](N/A)
+*No circuit required as this runs on standard PC hardware.*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+![Schematic](N/A)
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+![IMG_9978](https://github.com/user-attachments/assets/db7b025b-9a24-4828-bb28-dde47a05ba71)
 
-![Components](Add photo of your components here)
-*List out all components shown*
+
+![Components]
+
+<img width="1920" height="1200" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/a7dabecf-5dbb-4784-b7b2-19e7b6ed99b5" />
+home page
+1. Frontend Pages (User Interface)
+
+index.php
+: The public landing page.
+
+register.php
+: User registration form (with Unique ID & Security Questions).
+
+login.php
+: Secure login interface.
+
+home_page.php
+: The main user dashboard that displays profile info, notifications, and matches.
+
+chat.php
+: The real-time messaging interface.
+
+forgot_password.php
+: Password recovery page.
+
+style.css
+: Contains all visual styles (Glassmorphism, Gradients, Responsive Layouts).
+
+2. Backend Logic (Core System)
+
+<img width="1027" height="498" alt="Screenshot 2026-02-14 070607" src="https://github.com/user-attachments/assets/84c09e74-4391-49ee-aacd-f56651067f92" />
+
+db.php
+: Database connection handler.
+
+auth.php
+: Session management and security checks.
+
+match_engine.php
+: The algorithm that automatically finds and pairs users based on "Skills Offered" vs "Skills Needed".
+
+fetch_messages.php
+: API endpoint that retrieves chat history (JSON).
+
+send_message.php
+: API endpoint that saves new messages to the database.
+
+setup_v3.php
+: Utility script to initialize the database schema.
+
+3. Database Components (MySQL Tables)
+
+<img width="1920" height="1200" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/46cd4491-ff28-4a7c-b58a-3ed00379e4ed" />
+
+users: Stores user profiles (Unique ID, Hashed Password, Skills).
+matches: Tracks active mentorship pairs.
+messages: Stores chat history.
+notifications: Stores system alerts.
+que_ans: Stores security answers for password recovery.
+
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
@@ -137,12 +219,12 @@ List the key features of your project:
 
 #### API Documentation
 
-**Base URL:** `https://api.yourproject.com`
+**Base URL:** https://skillswaps.page.gd/
 
 ##### Endpoints
 
 **GET /api/endpoint**
-- **Description:** [What it does]
+- **Description:** connect two people to share there skills and grow
 - **Parameters:**
   - `param1` (string): [Description]
   - `param2` (integer): [Description]
@@ -178,192 +260,30 @@ List the key features of your project:
 ### For Mobile Apps:
 
 #### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
----
+not designed for mobile
 
 ### For Hardware Projects:
 
 #### Bill of Materials (BOM)
+free
 
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
+**Total Estimated Cost:** 0₹
 
 #### Assembly Instructions
 
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
+Get in the link provided
+create your profile by answering some questions
+login withpassword and user ID
+chat with mentors and learners
 
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
 
 #### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
----
 
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://drive.google.com/file/d/1QrNI8on9oa30P8pycfav7fmbUzLGXdjI/view?usp=drive_link
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
 
 ### Additional Demos
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
@@ -394,27 +314,5 @@ If you used AI tools during development, document them here for transparency:
 - Integration and testing
 - UI/UX design decisions
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
-
----
-
-## Team Contributions
-
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
-
----
-
-## License
-
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
-
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
-
----
 
 Made with ❤️ at TinkerHub
